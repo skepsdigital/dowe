@@ -1,0 +1,397 @@
+@import '~src/variables.scss';
+
+.heroPage {
+    h1 {
+        padding-top: 20px;
+        padding-bottom: 20px;
+        font-weight: 700;
+        font-family: $standard-font;
+        width: 320px;
+        font-size: 40px;
+    }
+
+    p {
+        font-family: $standard-font;
+        width: 240px;
+        font-weight: 600;
+        padding-bottom: 20px;
+    }
+
+    button {
+        background-color: $primary-color;
+        border: none;
+        color: #fff;
+        border-radius: 10px;
+        width: 200px;
+        height: 40px;
+    }
+}
+
+.heroImg {
+    background: linear-gradient(to bottom, #fff 0%, #fff 50%, $primary-color 51%, $primary-color 100%);
+    height: auto;
+    padding-bottom: 30px;
+}
+
+.cards {
+    display: grid;
+    grid-template-columns: repeat(3, 2fr);
+    grid-gap: 16px;
+    align-items: center;
+    padding: 50px 0px 0px 10px;
+}
+
+.difference {
+    height: 100vh;
+}
+
+.imgSlide {
+    background-color: #E9E4E4;
+    height: 500px;
+    border-radius: 10px;
+    margin-top: 30px;
+
+    img {
+        margin-top: 30px;
+        margin-left: 10%;
+    }
+}
+
+.difference {
+
+    h2,
+    p {
+        font-family: $standard-font;
+    }
+
+    h2 {
+        padding-top: 30px;
+        padding-bottom: 15px;
+        width: 400px;
+        font-weight: bold;
+        font-size: 40px;
+    }
+
+    p {
+        width: 300px;
+    }
+
+    height: auto;
+}
+
+.carousel-caption {
+    text-align: left !important;
+    padding-top: 0px !important;
+
+    img {
+        width: 300px;
+    }
+
+    h4,
+    p {
+        color: #000 !important;
+    }
+
+    .alingSpan {
+        width: 300px;
+        padding: 10px 0px;
+    }
+
+    span,
+    b {
+        color: $primary-color !important;
+    }
+
+    span:first-child {
+        margin-right: 30px;
+    }
+
+    h4 {
+        font-family: $standard-font;
+        width: 250px;
+        font-size: 20px;
+        font-weight: bold;
+    }
+
+    p {
+        font-family: $standard-font;
+        font-size: 14px;
+        width: 350px;
+    }
+
+    .alingBtn {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding-top: 20px;
+
+        button {
+            width: 90%;
+            height: 40px;
+            color: #fff;
+            background-color: $primary-color;
+            border: none;
+            border-radius: 10px;
+        }
+    }
+}
+
+.donate {
+
+    h2,
+    p {
+        font-family: $standard-font;
+    }
+
+    h2 {
+        padding-top: 40px;
+        padding-bottom: 10px;
+        width: 350px;
+        font-weight: bold;
+        font-size: 40px;
+    }
+
+    p {
+        font-weight: bold;
+        padding-bottom: 40px;
+    }
+
+    height: auto;
+}
+
+.donateRow {
+    div:first-child {
+        width: 20%;
+    }
+
+    div:last-child {
+        width: 80%;
+    }
+}
+
+.about {
+    height: 100vh;
+    padding-bottom: 30px;
+
+    h2,
+    p {
+        font-family: $standard-font;
+    }
+
+    h2 {
+        padding-top: 20px;
+        padding-bottom: 10px;
+        width: 350px;
+        font-weight: bold;
+        font-size: 40px;
+    }
+
+    p {
+        font-weight: bold;
+        padding-bottom: 40px;
+        width: 350px;
+    }
+}
+
+.aboutFlex {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 25px;
+    align-items: center;
+    padding: 20px 0px 0px 10px;
+
+    img {
+        border-radius: 50%;
+    }
+
+    p {
+        width: 150px;
+    }
+}
+
+.imgAbout1,
+.imgAbout2 {
+    position: absolute;
+}
+
+.imgAbout1 {
+    border-radius: 50%;
+    margin-left: 180px;
+    width: 80px;
+}
+
+.imgAbout2 {
+    border-radius: 550%;
+    width: 130px;
+    margin-left: 50px;
+    margin-top: 50px;
+}
+
+footer {
+    height: 100px;
+    background-color: $primary-color;
+    margin-top: 100px;
+}
+
+.footer {
+    padding-top: 40px;
+
+    img {
+        width: 40px;
+        margin-left: 20px;
+    }
+}
+
+.video {
+    text-align: center;
+
+    h2 {
+        padding-top: 40px;
+        padding-bottom: 10px;
+        font-family: $standard-font;
+        font-weight: 700;
+    }
+
+    button {
+        width: 60%;
+        height: 40px;
+        margin-top: 25px;
+        font-family: $standard-font;
+        background-color: $primary-color;
+        border: none;
+        color: #fff;
+        border-radius: 10px;
+    }
+}
+
+.containerVideo {
+    height: 200px;
+    background-color: #E9E4E4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    img {
+        position: absolute;
+    }
+}
+
+.imgVideo {
+    width: 300px;
+    height: 150px;
+    background-image: url('../../assets/Mask group.svg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: .5;
+    border-radius: 10px;
+}
+
+.form {
+    text-align: center;
+    width: 90%;
+    margin: 0 auto;
+    padding-top: 10%;
+    padding-bottom: 50px;
+
+    input {
+        width: 100%;
+        height: 40px;
+        margin-bottom: 10px;
+        border: solid 1px rgba(0, 0, 0, 0.219);
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    button {
+        width: 60%;
+        height: 40px;
+        margin-top: 25px;
+        font-family: $standard-font;
+        background-color: $primary-color;
+        border: none;
+        color: #fff;
+        border-radius: 10px;
+    }
+
+    img {
+        width: 150px;
+    }
+}
+.frameVideo{
+    text-align: center;
+    img{
+        width: 150px;
+    }
+}
+.getNote,
+.msg {
+    width: 100%;
+    height: 100vh;
+    background-color: #e5e5e5;
+}
+
+.containerGetNote {
+    width: 100%;
+    height: auto;
+    background-color: #fff;
+    text-align: center;
+    padding-bottom: 150px;
+
+    h2 {
+        padding-top: 100px;
+        padding-bottom: 10px;
+        font-family: $standard-font;
+        font-weight: 700;
+    }
+
+    p {
+        font-family: $standard-font;
+        width: 250px;
+        margin: 0 auto;
+        margin-bottom: 30px;
+    }
+}
+
+.msgContainer {
+    width: 100%;
+    height: auto;
+    background-color: #fff;
+    text-align: center;
+    padding-bottom: 150px;
+
+    img {
+        padding-top: 50px;
+        padding-bottom: 10px;
+    }
+
+    h2 {
+        padding-bottom: 10px;
+        font-family: $standard-font;
+        font-weight: 700;
+    }
+
+    p {
+        font-family: $standard-font;
+        width: 330px;
+        margin: 0 auto;
+        margin-bottom: 70px;
+    }
+
+    a {
+        text-decoration: none;
+        color: #2A40DB;
+        font-family: $standard-font;
+
+    }
+}
+
+.aling {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    span {
+        margin-right: 25px;
+        color: #2A40DB;
+    }
+}

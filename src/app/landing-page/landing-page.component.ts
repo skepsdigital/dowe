@@ -33,6 +33,7 @@ export class LandingPageComponent implements OnInit {
   }
   showForm(){
     this.videoForm = false;
+    this.landingPage = false;
     this.form = true;
   }
   showVideo(){

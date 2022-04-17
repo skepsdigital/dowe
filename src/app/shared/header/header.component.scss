@@ -1,1 +1,44 @@
 @import '~src/variables.scss';
+.desk{
+    display: block;
+}
+.mobile{
+    display: none;
+}
+.count{
+    margin-left: 20px;
+}
+.desk{
+    ul{
+        list-style: none;
+        li{
+            display: inline-block;
+            margin-left: 30px;
+            padding: 0px 10px 0px 10px;
+            cursor: pointer;
+        }
+    }
+    button:first-child{
+        background: none;
+        color: #2A40DB;
+    }
+    button{
+        width: 150px;
+        height: 40px;
+        border: none;
+        background-color: $primary-color;
+        color: #fff;
+        border-radius: 10px;
+    }
+}
+.alingItens{
+    align-items: center;
+}
+@media only screen and (max-width: 768px) {
+    .desk{
+        display: none;
+    }
+    .mobile{
+        display: block;
+    }
+}

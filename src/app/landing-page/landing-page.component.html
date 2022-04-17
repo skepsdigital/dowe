@@ -1,4 +1,4 @@
-<div *ngIf="landingPage">
+<div *ngIf="landingPage" class="mobile">
     <app-header></app-header>
     <div class="container">
         <div class="heroPage">
@@ -21,7 +21,7 @@
         <div class="container">
             <h2>É fácil fazer a
                 diferença!</h2>
-            <p>Clique na causa que mais te representa,
+            <p>Clique na causa que mais te representa,<br>
                 assista o vídeo e confirme sua doação</p>
             <ngb-carousel>
                 <ng-template ngbSlide>
@@ -157,6 +157,193 @@
         </div>
     </footer>
 </div>
+<div *ngIf="landingPage" class="desk">
+    <app-header></app-header>
+    <div class="cont">
+        <div class="heroPage">
+            <h1>Doe para projetos sociais
+                sem gastar dinheiro</h1>
+            <p>Junte-se à comunidade que faz
+                o bem todos os dias e ainda
+                concorra a prêmios!</p>
+            <button (click)="showvideoForm()">Doe agora!</button>
+        </div>
+    </div>
+    <div class="heroImg">
+        <div class="col-md-12 cards">
+            <img src="../../assets/Cardcachorro.svg" alt="Card cachorro">
+            <img src="../../assets/Cardmenina.svg" alt="Card menina">
+            <img src="../../assets/Cardmulher.svg" alt="Card mulher">
+        </div>
+    </div>
+    <div class="count">
+        <div class="row">
+            <div class="col-md-6 titleLeft">
+                <h2>É fácil fazer a
+                    diferença!
+                </h2>
+                <p>Clique na causa que mais te representa,
+                    assista o vídeo e confirme sua doação
+                </p>
+            </div>
+            <div class="col-md-6">
+                <ngb-carousel>
+                    <ng-template ngbSlide>
+                        <div class="imgSlide">
+                            <img src="../../assets/Group 297.svg" alt="">
+                        </div>
+                        <div class="carousel-caption">
+                            <h4>Apoie empreendedoras
+                                do Aglomerado da Serra</h4>
+                            <p>Ajude este grupo de mulheres a comprarem
+                                materiais para a fabricação de máscaras para
+                                famílias carentes</p>
+                            <img src="../../assets/Group 3.svg" alt="">
+                            <div class="alingSpan">
+                                <span><b>R$100</b> arrecadados</span><span><b>10</b> dias restantes</span>
+                            </div>
+                            <div class="alingBtn">
+                                <button (click)="showvideoForm()">Doe agora</button>
+                            </div>
+                        </div>
+                    </ng-template>
+                    <ng-template ngbSlide>
+                        <div class="imgSlide">
+                            <img src="../../assets/Group 297.svg" alt="">
+                        </div>
+                        <div class="carousel-caption">
+                            <h4>Apoie empreendedoras
+                                do Aglomerado da Serra</h4>
+                            <p>Ajude este grupo de mulheres a comprarem
+                                materiais para a fabricação de máscaras para
+                                famílias carentes</p>
+                            <img src="../../assets/Group 3.svg" alt="">
+                            <div class="alingSpan">
+                                <span><b>R$200</b> arrecadados</span><span><b>20</b> dias restantes</span>
+                            </div>
+                            <div class="alingBtn">
+                                <button (click)="showvideoForm()">Doe agora</button>
+                            </div>
+                        </div>
+                    </ng-template>
+                    <ng-template ngbSlide>
+                        <div class="imgSlide">
+                            <img src="../../assets/Group 297.svg" alt="">
+                        </div>
+                        <div class="carousel-caption">
+                            <h4>Apoie empreendedoras
+                                do Aglomerado da Serra</h4>
+                            <p>Ajude este grupo de mulheres a comprarem
+                                materiais para a fabricação de máscaras para
+                                famílias carentes</p>
+                            <img src="../../assets/Group 3.svg" alt="">
+                            <div class="alingSpan">
+                                <span><b>R$300</b> arrecadados</span><span><b>30</b> dias restantes</span>
+                            </div>
+                            <div class="alingBtn">
+                                <button (click)="showvideoForm()">Doe agora</button>
+                            </div>
+                        </div>
+                    </ng-template>
+                </ngb-carousel>
+            </div>
+        </div>
+        <div>
+            <div class="col-md-12 titleLeft2">
+                <h2>Como doar sem gastar um centavo?</h2>
+                <p>É simples! Funciona assim:</p>
+            </div>
+            <div class="col-md-12 donate">
+                <div class="row alingDonate">
+                    <div class="col-md-3">
+                        <img src="../../assets/icone_cor_26 1.svg" alt="">
+                        <h4>Empresas</h4>
+                        <p>Marcas parceiras nos pagam
+                            para anunciarem conosco</p>
+                    </div>
+                    <div class="col-md-3">
+                        <img src="../../assets/dowe_logo_versao_principal_cor_01_F_hg 2.svg" alt="">
+                        <h4>Dowe</h4>
+                        <p>A gente exibe o anúncio da marca em
+                            vídeo na nossa plataforma</p>
+                    </div>
+                    <div class="col-md-3">
+                        <img src="../../assets/icone_cor_20 1.svg" alt="">
+                        <h4>Pessoas</h4>
+                        <p>Ao se inscrever, você recebe campanhas
+                            e faz doações usando sua atenção</p>
+                    </div>
+                    <div class="col-md-3">
+                        <img src="../../assets/icone_cor_30 4.svg" alt="">
+                        <h4>Projetos sociais</h4>
+                        <p>A organização parceira recebe as
+                            doações com transparência</p>
+                    </div>
+                </div>
+            </div>
+            <div class="about">
+                <div class="col-md-12">
+                    <div class="row">
+                        <div class="col-md-6">
+                            <img src="../../assets/Card cachorro.svg" alt="cachorro" class="imgAbout1">
+                            <img src="../../assets/Card cachorro.svg" alt="cachorro" class="imgAbout2">
+                            <img src="../../assets/Card cachorro.svg" alt="cachorro" class="imgAbout3">
+                        </div>
+                        <div class="col-md-6">
+                            <h2>Sobre a Dowe</h2>
+                            <p>Somos a primeira plataforma de Marketing Social do Brasil</p>
+                            <p>
+                                Colocar aqui algum textinho sobre a Dowe e a equipe, além de fotos ou um vídeo (ao
+                                lado)<br>E mais um pouco de texto (mas não muito!)
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="col-md-12 juntos">
+        <div class="row">
+            <div class="col-md-6 titleLeft3">
+                <h2>Vamos juntos construir um mundo melhor</h2>
+                <p>Vem doar com a gente!</p>
+            </div>
+            <div class="col-md-6">
+                <div class="row containerBtnJuntos">
+                    <button (click)="showvideoForm()" >Doe agora!</button>
+                    <button (click)="showForm()" >Inscreva-se</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <footer>
+        <div class="col-md-12">
+            <div class="row footerContainer">
+                <div class="col-md-2">
+                    <p>(31) 9999-9999<br>contato@dowesocial.com</p>
+                </div>
+                <div class="col-md-4">
+                    <nav>
+                        <ul>
+                            <li>Início</li>
+                            <li>Campanhas</li>
+                            <li>Como Funciona</li>
+                            <li>Sobre</li>
+                        </ul>
+                    </nav>
+                </div>
+                <div class="col-md-2">
+                    <p>Copyright Dowe, 2022<br>Feito com <span>♥</span> em BH</p>
+                </div>
+                <div class="col-md-2 alingImgFooter">
+                    <img src="../../assets/WhatsApp.svg" alt="WhatsApp">
+                    <img src="../../assets/Instagram.svg" alt="Instagram">
+                    <img src="../../assets/Facebook.svg" alt="Facebook">
+                </div>
+            </div>
+        </div>
+    </footer>
+</div>
 <div class="video" *ngIf="videoForm">
     <h2>Veja o vídeo até o final!</h2>
     <div class="containerVideo">
@@ -175,7 +362,7 @@
 </div>
 <div *ngIf="video" class='frameVideo'>
     <img src="../../assets/dowe_logo_versao_principal_cor_01_F_hg 2.svg" alt="dowe" (click)="closeVideo()">
-    <iframe  width="100%" height="300" src="https://www.youtube.com/embed/X7jWB6NMB74" title="YouTube video player"
+    <iframe width="100%" height="300" src="https://www.youtube.com/embed/X7jWB6NMB74" title="YouTube video player"
         frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
         allowfullscreen (click)="showMsg()"></iframe>
 </div>
